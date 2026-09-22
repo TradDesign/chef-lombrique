@@ -9,6 +9,31 @@
 
 <style>
 
+:root {
+
+    /* Fond général */
+    --bg-page: #f7f5ef;
+
+    /* Tableau */
+    --bg-table: #ffffff;
+    --bg-header: #f0eee8;
+
+    /* Statuts */
+    --recommande: #dcefd8;
+    --acceptable: #edf5d7;
+    --moderation: #fff4d6;
+    --eviter: #f8dddd;
+
+    /* Apports */
+    --azote: #2f7d32;
+    --carbone: #8b5e3c;
+    --mixte: #3b6fb6;
+
+    /* Texte */
+    --texte: #2f2f2f;
+    --bordure: #d7d2c7;
+}
+
 body{
     font-family: Arial, sans-serif;
     margin: 0;
@@ -54,33 +79,33 @@ td{
 }
 
 .recommande{
-    background-color: #4caf50;
+    background-color: var(--recommande);
 }
 
 .acceptable{
-    background-color: #8bc34a;
+    background-color: var(--acceptable);
 }
 
 .moderation{
-    background-color: #ff9800;
+    background-color: var(--moderation);
 }
 
 .eviter{
-    background-color: #f44336;
+    background-color: var(--eviter);
 }
 
 .carbone{
-    color: saddlebrown;
+    color: var(--carbone);
     font-weight: bold;
 }
 
 .azote{
-    color: green;
+    color: var(--azote);
     font-weight: bold;
 }
 
 .mixte{
-    color: royalblue;
+    color: var(--mixte);
     font-weight: bold;
 }
 
@@ -107,19 +132,19 @@ td{
 }
 
 .couleur.recommande{
-    background:#4caf50;
+    background:var(--recommande);
 }
 
 .couleur.acceptable{
-    background:#8bc34a;
+    background:var(--acceptable);
 }
 
 .couleur.moderation{
-    background:#ff9800;
+    background:var(--moderation);
 }
 
 .couleur.eviter{
-    background:#f44336;
+    background:var(--eviter);
 }
 
 </style>
