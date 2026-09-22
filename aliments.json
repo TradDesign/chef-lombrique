@@ -2,902 +2,1404 @@
   {
     "id": 1,
     "nom": "Pomme",
-    "categorie": "Fruit",
+    "apport": "Azote",
     "statut": "Recommandé",
-    "details": "Très appréciée des Red Wigglers.",
-    "decomposition": "Rapide",
-    "saisons": ["Automne"]
+    "details": "Très appréciée des vers."
   },
   {
     "id": 2,
     "nom": "Poire",
-    "categorie": "Fruit",
+    "apport": "Azote",
     "statut": "Recommandé",
-    "details": "Fruit doux facilement consommé par les vers.",
-    "decomposition": "Rapide",
-    "saisons": ["Automne"]
+    "details": "Fruit doux facilement consommé."
   },
   {
     "id": 3,
     "nom": "Banane",
-    "categorie": "Fruit",
+    "apport": "Azote",
     "statut": "Recommandé",
-    "details": "Les pelures sont excellentes pour le vermicompostage.",
-    "decomposition": "Rapide",
-    "saisons": ["Toute l'année"]
+    "details": "Les pelures sont excellentes pour les vers."
   },
   {
     "id": 4,
     "nom": "Fraise",
-    "categorie": "Fruit",
+    "apport": "Azote",
     "statut": "Recommandé",
-    "details": "Très appréciée lorsqu'elle est trop mûre.",
-    "decomposition": "Rapide",
-    "saisons": ["Été"]
+    "details": "Se décompose rapidement."
   },
   {
     "id": 5,
     "nom": "Framboise",
-    "categorie": "Fruit",
+    "apport": "Azote",
     "statut": "Recommandé",
-    "details": "Bonne source de matière organique.",
-    "decomposition": "Rapide",
-    "saisons": ["Été"]
+    "details": "Très bonne source de matière organique."
   },
   {
     "id": 6,
     "nom": "Bleuet",
-    "categorie": "Fruit",
+    "apport": "Azote",
     "statut": "Recommandé",
-    "details": "Les fruits abîmés sont parfaits.",
-    "decomposition": "Rapide",
-    "saisons": ["Été"]
+    "details": "Les fruits trop mûrs sont idéaux."
   },
   {
     "id": 7,
     "nom": "Mûre",
-    "categorie": "Fruit",
+    "apport": "Azote",
     "statut": "Recommandé",
-    "details": "Se décompose rapidement.",
-    "decomposition": "Rapide",
-    "saisons": ["Été"]
+    "details": "Bien acceptée par les vers."
   },
   {
     "id": 8,
     "nom": "Raisin",
-    "categorie": "Fruit",
+    "apport": "Azote",
     "statut": "Recommandé",
-    "details": "Les raisins mous sont appréciés.",
-    "decomposition": "Rapide",
-    "saisons": ["Automne"]
+    "details": "Les raisins mous sont appréciés."
   },
   {
     "id": 9,
     "nom": "Pêche",
-    "categorie": "Fruit",
+    "apport": "Azote",
     "statut": "Recommandé",
-    "details": "Très bonne nourriture lorsqu'elle est mûre.",
-    "decomposition": "Rapide",
-    "saisons": ["Été"]
+    "details": "Très bonne nourriture lorsqu'elle est mûre."
   },
   {
     "id": 10,
     "nom": "Nectarine",
-    "categorie": "Fruit",
+    "apport": "Azote",
     "statut": "Recommandé",
-    "details": "Aliment doux facile à décomposer.",
-    "decomposition": "Rapide",
-    "saisons": ["Été"]
+    "details": "Aliment doux et facile à consommer."
   },
   {
     "id": 11,
     "nom": "Prune",
-    "categorie": "Fruit",
+    "apport": "Azote",
     "statut": "Recommandé",
-    "details": "Se décompose rapidement.",
-    "decomposition": "Rapide",
-    "saisons": ["Été"]
+    "details": "Se décompose rapidement."
   },
   {
     "id": 12,
     "nom": "Abricot",
-    "categorie": "Fruit",
+    "apport": "Azote",
     "statut": "Recommandé",
-    "details": "Excellent lorsque très mûr.",
-    "decomposition": "Rapide",
-    "saisons": ["Été"]
+    "details": "Excellent lorsqu'il est très mûr."
   },
   {
     "id": 13,
-    "nom": "Pastèque",
-    "categorie": "Fruit",
+    "nom": "Cerise",
+    "apport": "Azote",
     "statut": "Recommandé",
-    "details": "Les écorces sont très populaires auprès des vers.",
-    "decomposition": "Rapide",
-    "saisons": ["Été"]
+    "details": "Bonne source de nourriture."
   },
   {
     "id": 14,
-    "nom": "Cantaloup",
-    "categorie": "Fruit",
+    "nom": "Pastèque",
+    "apport": "Azote",
     "statut": "Recommandé",
-    "details": "Excellent ajout au bac.",
-    "decomposition": "Rapide",
-    "saisons": ["Été"]
+    "details": "Les écorces sont très appréciées."
   },
   {
     "id": 15,
-    "nom": "Melon miel",
-    "categorie": "Fruit",
+    "nom": "Cantaloup",
+    "apport": "Azote",
     "statut": "Recommandé",
-    "details": "Très apprécié.",
-    "decomposition": "Rapide",
-    "saisons": ["Été"]
+    "details": "Excellent pour les vers."
   },
   {
     "id": 16,
-    "nom": "Mangue",
-    "categorie": "Fruit",
+    "nom": "Melon miel",
+    "apport": "Azote",
     "statut": "Recommandé",
-    "details": "Les parties trop mûres se compostent bien.",
-    "decomposition": "Rapide",
-    "saisons": ["Toute l'année"]
+    "details": "Très apprécié dans le bac."
   },
   {
     "id": 17,
-    "nom": "Papaye",
-    "categorie": "Fruit",
+    "nom": "Mangue",
+    "apport": "Azote",
     "statut": "Recommandé",
-    "details": "Très facile à décomposer.",
-    "decomposition": "Rapide",
-    "saisons": ["Toute l'année"]
+    "details": "Les parties très mûres sont idéales."
   },
   {
     "id": 18,
-    "nom": "Kiwi",
-    "categorie": "Fruit",
+    "nom": "Papaye",
+    "apport": "Azote",
     "statut": "Recommandé",
-    "details": "Accepté sans problème.",
-    "decomposition": "Rapide",
-    "saisons": ["Toute l'année"]
+    "details": "Se décompose facilement."
   },
   {
     "id": 19,
-    "nom": "Ananas",
-    "categorie": "Fruit",
-    "statut": "Acceptable",
-    "details": "Les feuilles et le cœur sont plus lents à décomposer.",
-    "decomposition": "Moyenne",
-    "saisons": ["Toute l'année"]
+    "nom": "Kiwi",
+    "apport": "Azote",
+    "statut": "Recommandé",
+    "details": "Accepté sans problème."
   },
   {
     "id": 20,
-    "nom": "Grenade",
-    "categorie": "Fruit",
-    "statut": "Acceptable",
-    "details": "Les membranes sont plus fibreuses.",
-    "decomposition": "Moyenne",
-    "saisons": ["Toute l'année"]
+    "nom": "Avocat",
+    "apport": "Azote",
+    "statut": "Recommandé",
+    "details": "Très apprécié lorsqu'il est mûr."
   },
   {
     "id": 21,
     "nom": "Orange",
-    "categorie": "Fruit",
+    "apport": "Azote",
     "statut": "Modération",
-    "details": "Agrume acide à donner en petite quantité.",
-    "decomposition": "Moyenne",
-    "saisons": ["Toute l'année"]
+    "details": "Agrume acide à donner en petite quantité."
   },
   {
     "id": 22,
     "nom": "Citron",
-    "categorie": "Fruit",
+    "apport": "Azote",
     "statut": "Modération",
-    "details": "Très acide pour le bac.",
-    "decomposition": "Moyenne",
-    "saisons": ["Toute l'année"]
+    "details": "Aliment acide."
   },
   {
     "id": 23,
     "nom": "Lime",
-    "categorie": "Fruit",
+    "apport": "Azote",
     "statut": "Modération",
-    "details": "À utiliser avec parcimonie.",
-    "decomposition": "Moyenne",
-    "saisons": ["Toute l'année"]
+    "details": "À utiliser avec parcimonie."
   },
   {
     "id": 24,
     "nom": "Pamplemousse",
-    "categorie": "Fruit",
+    "apport": "Azote",
     "statut": "Modération",
-    "details": "Agrume généralement accepté en faible quantité.",
-    "decomposition": "Moyenne",
-    "saisons": ["Toute l'année"]
+    "details": "Agrume généralement accepté en faible quantité."
   },
   {
     "id": 25,
-    "nom": "Carotte",
-    "categorie": "Légume",
-    "statut": "Recommandé",
-    "details": "Excellente nourriture pour les vers.",
-    "decomposition": "Moyenne",
-    "saisons": ["Toute l'année"]
+    "nom": "Mandarine",
+    "apport": "Azote",
+    "statut": "Modération",
+    "details": "Agrume légèrement acide."
   },
   {
     "id": 26,
-    "nom": "Concombre",
-    "categorie": "Légume",
-    "statut": "Recommandé",
-    "details": "Très apprécié par les Red Wigglers.",
-    "decomposition": "Rapide",
-    "saisons": ["Été"]
+    "nom": "Clémentine",
+    "apport": "Azote",
+    "statut": "Modération",
+    "details": "À utiliser en petite quantité."
   },
   {
     "id": 27,
-    "nom": "Tomate",
-    "categorie": "Légume",
+    "nom": "Carotte",
+    "apport": "Azote",
     "statut": "Recommandé",
-    "details": "Se décompose rapidement.",
-    "decomposition": "Rapide",
-    "saisons": ["Été"]
+    "details": "Excellente nourriture pour les vers."
   },
   {
     "id": 28,
-    "nom": "Laitue",
-    "categorie": "Légume",
+    "nom": "Concombre",
+    "apport": "Azote",
     "statut": "Recommandé",
-    "details": "Aliment facile à composter.",
-    "decomposition": "Rapide",
-    "saisons": ["Été"]
+    "details": "Très apprécié des vers."
   },
   {
     "id": 29,
-    "nom": "Romaine",
-    "categorie": "Légume",
+    "nom": "Tomate",
+    "apport": "Azote",
     "statut": "Recommandé",
-    "details": "Très appréciée.",
-    "decomposition": "Rapide",
-    "saisons": ["Été"]
+    "details": "Se décompose rapidement."
   },
   {
     "id": 30,
-    "nom": "Épinard",
-    "categorie": "Légume",
+    "nom": "Laitue",
+    "apport": "Azote",
     "statut": "Recommandé",
-    "details": "Bonne source de matière verte.",
-    "decomposition": "Rapide",
-    "saisons": ["Été"]
+    "details": "Aliment facile à composter."
   },
   {
     "id": 31,
-    "nom": "Kale",
-    "categorie": "Légume",
-    "statut": "Acceptable",
-    "details": "Peut prendre un peu plus de temps à se décomposer.",
-    "decomposition": "Moyenne",
-    "saisons": ["Été", "Automne"]
+    "nom": "Romaine",
+    "apport": "Azote",
+    "statut": "Recommandé",
+    "details": "Très appréciée des vers."
   },
   {
     "id": 32,
-    "nom": "Courgette",
-    "categorie": "Légume",
+    "nom": "Épinard",
+    "apport": "Azote",
     "statut": "Recommandé",
-    "details": "Excellent aliment pour les vers.",
-    "decomposition": "Rapide",
-    "saisons": ["Été"]
+    "details": "Bonne source de matière verte."
   },
   {
     "id": 33,
-    "nom": "Courge spaghetti",
-    "categorie": "Légume",
-    "statut": "Recommandé",
-    "details": "Très bonne source de matière organique.",
-    "decomposition": "Moyenne",
-    "saisons": ["Automne"]
+    "nom": "Kale",
+    "apport": "Azote",
+    "statut": "Acceptable",
+    "details": "Peut prendre un peu plus de temps à se décomposer."
   },
   {
     "id": 34,
-    "nom": "Citrouille",
-    "categorie": "Légume",
+    "nom": "Courgette",
+    "apport": "Azote",
     "statut": "Recommandé",
-    "details": "Les vers adorent les citrouilles ramollies.",
-    "decomposition": "Rapide",
-    "saisons": ["Automne"]
+    "details": "Excellent aliment pour les vers."
   },
   {
     "id": 35,
-    "nom": "Patate douce",
-    "categorie": "Légume",
+    "nom": "Citrouille",
+    "apport": "Azote",
     "statut": "Recommandé",
-    "details": "Bonne source de matière organique.",
-    "decomposition": "Moyenne",
-    "saisons": ["Automne"]
+    "details": "Les vers adorent les citrouilles ramollies."
   },
   {
     "id": 36,
-    "nom": "Pomme de terre",
-    "categorie": "Légume",
-    "statut": "Acceptable",
-    "details": "À couper en petits morceaux.",
-    "decomposition": "Moyenne",
-    "saisons": ["Toute l'année"]
+    "nom": "Courge spaghetti",
+    "apport": "Azote",
+    "statut": "Recommandé",
+    "details": "Bonne matière organique."
   },
   {
     "id": 37,
-    "nom": "Navet",
-    "categorie": "Légume",
+    "nom": "Patate douce",
+    "apport": "Azote",
     "statut": "Recommandé",
-    "details": "Bonne nourriture pour les vers.",
-    "decomposition": "Moyenne",
-    "saisons": ["Automne"]
+    "details": "Très appréciée lorsque coupée en morceaux."
   },
   {
     "id": 38,
-    "nom": "Panais",
-    "categorie": "Légume",
-    "statut": "Recommandé",
-    "details": "Se composte bien.",
-    "decomposition": "Moyenne",
-    "saisons": ["Automne"]
+    "nom": "Pomme de terre",
+    "apport": "Azote",
+    "statut": "Acceptable",
+    "details": "À couper en petits morceaux."
   },
   {
     "id": 39,
     "nom": "Betterave",
-    "categorie": "Légume",
+    "apport": "Azote",
     "statut": "Recommandé",
-    "details": "Bonne matière organique.",
-    "decomposition": "Moyenne",
-    "saisons": ["Automne"]
+    "details": "Bonne source de matière organique."
   },
   {
     "id": 40,
-    "nom": "Radis",
-    "categorie": "Légume",
+    "nom": "Navet",
+    "apport": "Azote",
     "statut": "Recommandé",
-    "details": "Se décompose facilement.",
-    "decomposition": "Moyenne",
-    "saisons": ["Été"]
+    "details": "Bien accepté par les vers."
   },
   {
     "id": 41,
-    "nom": "Haricot vert",
-    "categorie": "Légume",
+    "nom": "Panais",
+    "apport": "Azote",
     "statut": "Recommandé",
-    "details": "Excellent dans le vermicompost.",
-    "decomposition": "Rapide",
-    "saisons": ["Été"]
+    "details": "Se composte facilement."
   },
   {
     "id": 42,
-    "nom": "Pois",
-    "categorie": "Légume",
+    "nom": "Radis",
+    "apport": "Azote",
     "statut": "Recommandé",
-    "details": "Très apprécié.",
-    "decomposition": "Rapide",
-    "saisons": ["Été"]
+    "details": "Bonne nourriture lorsqu'il ramollit."
   },
   {
     "id": 43,
-    "nom": "Maïs",
-    "categorie": "Légume",
-    "statut": "Acceptable",
-    "details": "Les grains sont plus lents à décomposer.",
-    "decomposition": "Lente",
-    "saisons": ["Été"]
+    "nom": "Haricot vert",
+    "apport": "Azote",
+    "statut": "Recommandé",
+    "details": "Excellent dans le vermicompost."
   },
   {
     "id": 44,
-    "nom": "Brocoli",
-    "categorie": "Légume",
-    "statut": "Acceptable",
-    "details": "Peut produire des odeurs en se décomposant.",
-    "decomposition": "Moyenne",
-    "saisons": ["Été", "Automne"]
+    "nom": "Pois",
+    "apport": "Azote",
+    "statut": "Recommandé",
+    "details": "Très apprécié."
   },
   {
     "id": 45,
-    "nom": "Chou-fleur",
-    "categorie": "Légume",
+    "nom": "Maïs",
+    "apport": "Azote",
     "statut": "Acceptable",
-    "details": "À enfouir pour limiter les odeurs.",
-    "decomposition": "Moyenne",
-    "saisons": ["Été", "Automne"]
+    "details": "Les grains sont plus lents à décomposer."
   },
   {
     "id": 46,
-    "nom": "Chou vert",
-    "categorie": "Légume",
+    "nom": "Brocoli",
+    "apport": "Azote",
     "statut": "Acceptable",
-    "details": "Bonne matière organique mais odorante.",
-    "decomposition": "Moyenne",
-    "saisons": ["Automne"]
+    "details": "Peut produire des odeurs lors de la décomposition."
   },
   {
     "id": 47,
-    "nom": "Chou rouge",
-    "categorie": "Légume",
+    "nom": "Chou-fleur",
+    "apport": "Azote",
     "statut": "Acceptable",
-    "details": "Peut produire des odeurs.",
-    "decomposition": "Moyenne",
-    "saisons": ["Automne"]
+    "details": "Peut générer des odeurs."
   },
   {
     "id": 48,
-    "nom": "Oignon",
-    "categorie": "Légume",
-    "statut": "Modération",
-    "details": "À utiliser en petites quantités.",
-    "decomposition": "Lente",
-    "saisons": ["Toute l'année"]
+    "nom": "Chou vert",
+    "apport": "Azote",
+    "statut": "Acceptable",
+    "details": "Bonne matière organique mais odorante."
   },
   {
     "id": 49,
-    "nom": "Ail",
-    "categorie": "Légume",
+    "nom": "Oignon",
+    "apport": "Azote",
     "statut": "Modération",
-    "details": "Les vers l'apprécient peu.",
-    "decomposition": "Lente",
-    "saisons": ["Toute l'année"]
+    "details": "À utiliser en petite quantité."
   },
   {
     "id": 50,
-    "nom": "Piment fort",
-    "categorie": "Légume",
-    "statut": "À éviter",
-    "details": "Les vers évitent les aliments très piquants.",
-    "decomposition": "Lente",
-    "saisons": ["Été"]
+    "nom": "Ail",
+    "apport": "Azote",
+    "statut": "Modération",
+    "details": "Les vers l'apprécient peu."
   }
   ,
-  {
-    "id": 51,
-    "nom": "Poivron vert",
-    "categorie": "Légume",
-    "statut": "Recommandé",
-    "details": "Se décompose facilement lorsqu'il est coupé.",
-    "decomposition": "Rapide",
-    "saisons": ["Été"]
-  },
-  {
-    "id": 52,
-    "nom": "Poivron rouge",
-    "categorie": "Légume",
-    "statut": "Recommandé",
-    "details": "Très apprécié des vers.",
-    "decomposition": "Rapide",
-    "saisons": ["Été"]
-  },
-  {
-    "id": 53,
-    "nom": "Poivron jaune",
-    "categorie": "Légume",
-    "statut": "Recommandé",
-    "details": "Bonne source de matière organique.",
-    "decomposition": "Rapide",
-    "saisons": ["Été"]
-  },
-  {
-    "id": 54,
-    "nom": "Poivron orange",
-    "categorie": "Légume",
-    "statut": "Recommandé",
-    "details": "Facilement consommé après décomposition.",
-    "decomposition": "Rapide",
-    "saisons": ["Été"]
-  },
-  {
-    "id": 55,
-    "nom": "Asperge",
-    "categorie": "Légume",
-    "statut": "Acceptable",
-    "details": "Les parties fibreuses sont plus lentes à décomposer.",
-    "decomposition": "Moyenne",
-    "saisons": ["Printemps"]
-  },
-  {
-    "id": 56,
-    "nom": "Céleri",
-    "categorie": "Légume",
-    "statut": "Acceptable",
-    "details": "Les fibres ralentissent la décomposition.",
-    "decomposition": "Moyenne",
-    "saisons": ["Toute l'année"]
-  },
-  {
-    "id": 57,
-    "nom": "Bok choy",
-    "categorie": "Légume",
-    "statut": "Recommandé",
-    "details": "Excellente matière verte.",
-    "decomposition": "Rapide",
-    "saisons": ["Été"]
-  },
-  {
-    "id": 58,
-    "nom": "Chou de Bruxelles",
-    "categorie": "Légume",
-    "statut": "Acceptable",
-    "details": "Peut devenir odorant.",
-    "decomposition": "Moyenne",
-    "saisons": ["Automne"]
-  },
-  {
-    "id": 59,
-    "nom": "Rutabaga",
-    "categorie": "Légume",
-    "statut": "Recommandé",
-    "details": "Très bon légume racine pour le compost.",
-    "decomposition": "Moyenne",
-    "saisons": ["Automne"]
-  },
-  {
-    "id": 60,
-    "nom": "Fenouil",
-    "categorie": "Légume",
-    "statut": "Acceptable",
-    "details": "Son odeur peut ralentir l'intérêt des vers.",
-    "decomposition": "Moyenne",
-    "saisons": ["Été"]
-  },
-  {
-    "id": 61,
-    "nom": "Aubergine",
-    "categorie": "Légume",
-    "statut": "Recommandé",
-    "details": "Très bonne matière organique.",
-    "decomposition": "Rapide",
-    "saisons": ["Été"]
-  },
-  {
-    "id": 62,
-    "nom": "Okra",
-    "categorie": "Légume",
-    "statut": "Recommandé",
-    "details": "Se décompose rapidement.",
-    "decomposition": "Rapide",
-    "saisons": ["Été"]
-  },
-  {
-    "id": 63,
-    "nom": "Champignon blanc",
-    "categorie": "Légume",
-    "statut": "Recommandé",
-    "details": "Très apprécié en petite quantité.",
-    "decomposition": "Rapide",
-    "saisons": ["Toute l'année"]
-  },
-  {
-    "id": 64,
-    "nom": "Portobello",
-    "categorie": "Légume",
-    "statut": "Recommandé",
-    "details": "Bonne nourriture pour les vers.",
-    "decomposition": "Rapide",
-    "saisons": ["Toute l'année"]
-  },
-  {
-    "id": 65,
-    "nom": "Shiitake",
-    "categorie": "Légume",
-    "statut": "Recommandé",
-    "details": "Se composte facilement.",
-    "decomposition": "Rapide",
-    "saisons": ["Toute l'année"]
-  },
-  {
-    "id": 66,
-    "nom": "Avocat",
-    "categorie": "Fruit",
-    "statut": "Recommandé",
-    "details": "Très apprécié lorsqu'il est mûr.",
-    "decomposition": "Rapide",
-    "saisons": ["Toute l'année"]
-  },
-  {
-    "id": 67,
-    "nom": "Cerise",
-    "categorie": "Fruit",
-    "statut": "Recommandé",
-    "details": "Les fruits trop mûrs sont excellents.",
-    "decomposition": "Rapide",
-    "saisons": ["Été"]
-  },
-  {
-    "id": 68,
-    "nom": "Canneberge",
-    "categorie": "Fruit",
-    "statut": "Acceptable",
-    "details": "Légèrement acide.",
-    "decomposition": "Moyenne",
-    "saisons": ["Automne"]
-  },
-  {
-    "id": 69,
-    "nom": "Cassis",
-    "categorie": "Fruit",
-    "statut": "Recommandé",
-    "details": "Bonne matière organique.",
-    "decomposition": "Rapide",
-    "saisons": ["Été"]
-  },
-  {
-    "id": 70,
-    "nom": "Groseille",
-    "categorie": "Fruit",
-    "statut": "Recommandé",
-    "details": "Les fruits ramollis sont appréciés.",
-    "decomposition": "Rapide",
-    "saisons": ["Été"]
-  },
-  {
-    "id": 71,
-    "nom": "Mûre blanche",
-    "categorie": "Fruit",
-    "statut": "Recommandé",
-    "details": "Très bonne nourriture.",
-    "decomposition": "Rapide",
-    "saisons": ["Été"]
-  },
-  {
-    "id": 72,
-    "nom": "Datte",
-    "categorie": "Fruit",
-    "statut": "Acceptable",
-    "details": "Très sucrée, à utiliser avec modération.",
-    "decomposition": "Moyenne",
-    "saisons": ["Toute l'année"]
-  },
-  {
-    "id": 73,
-    "nom": "Figue",
-    "categorie": "Fruit",
-    "statut": "Recommandé",
-    "details": "Facilement décomposée.",
-    "decomposition": "Rapide",
-    "saisons": ["Toute l'année"]
-  },
-  {
-    "id": 74,
-    "nom": "Fruit du dragon",
-    "categorie": "Fruit",
-    "statut": "Recommandé",
-    "details": "Les restes mous sont excellents.",
-    "decomposition": "Rapide",
-    "saisons": ["Toute l'année"]
-  },
-  {
-    "id": 75,
-    "nom": "Litchi",
-    "categorie": "Fruit",
-    "statut": "Acceptable",
-    "details": "La peau est plus lente à décomposer.",
-    "decomposition": "Moyenne",
-    "saisons": ["Toute l'année"]
-  },
-  {
-    "id": 76,
-    "nom": "Kaki",
-    "categorie": "Fruit",
-    "statut": "Recommandé",
-    "details": "Très apprécié lorsqu'il est mou.",
-    "decomposition": "Rapide",
-    "saisons": ["Automne"]
-  },
-  {
-    "id": 77,
-    "nom": "Goyave",
-    "categorie": "Fruit",
-    "statut": "Recommandé",
-    "details": "Bonne matière verte.",
-    "decomposition": "Rapide",
-    "saisons": ["Toute l'année"]
-  },
-  {
-    "id": 78,
-    "nom": "Noix de coco",
-    "categorie": "Fruit",
-    "statut": "Acceptable",
-    "details": "Très fibreuse.",
-    "decomposition": "Lente",
-    "saisons": ["Toute l'année"]
-  },
-  {
-    "id": 79,
-    "nom": "Mandarine",
-    "categorie": "Fruit",
-    "statut": "Modération",
-    "details": "Agrume à utiliser avec parcimonie.",
-    "decomposition": "Moyenne",
-    "saisons": ["Hiver"]
-  },
-  {
-    "id": 80,
-    "nom": "Clémentine",
-    "categorie": "Fruit",
-    "statut": "Modération",
-    "details": "Agrume acide.",
-    "decomposition": "Moyenne",
-    "saisons": ["Hiver"]
-  },
-  {
-    "id": 81,
-    "nom": "Navet jaune",
-    "categorie": "Légume",
-    "statut": "Recommandé",
-    "details": "Très bon aliment pour le bac.",
-    "decomposition": "Moyenne",
-    "saisons": ["Automne"]
-  },
-  {
-    "id": 82,
-    "nom": "Topinambour",
-    "categorie": "Légume",
-    "statut": "Recommandé",
-    "details": "Bonne matière organique.",
-    "decomposition": "Moyenne",
-    "saisons": ["Automne"]
-  },
-  {
-    "id": 83,
-    "nom": "Cresson",
-    "categorie": "Légume",
-    "statut": "Recommandé",
-    "details": "Se décompose rapidement.",
-    "decomposition": "Rapide",
-    "saisons": ["Printemps"]
-  },
-  {
-    "id": 84,
-    "nom": "Roquette",
-    "categorie": "Légume",
-    "statut": "Recommandé",
-    "details": "Bonne matière verte.",
-    "decomposition": "Rapide",
-    "saisons": ["Été"]
-  },
-  {
-    "id": 85,
-    "nom": "Endive",
-    "categorie": "Légume",
-    "statut": "Acceptable",
-    "details": "Acceptée sans problème majeur.",
-    "decomposition": "Moyenne",
-    "saisons": ["Hiver"]
-  },
-  {
-    "id": 86,
-    "nom": "Radicchio",
-    "categorie": "Légume",
-    "statut": "Acceptable",
-    "details": "Légèrement amer.",
-    "decomposition": "Moyenne",
-    "saisons": ["Automne"]
-  },
-  {
-    "id": 87,
-    "nom": "Chou chinois",
-    "categorie": "Légume",
-    "statut": "Acceptable",
-    "details": "Peut produire une légère odeur.",
-    "decomposition": "Moyenne",
-    "saisons": ["Automne"]
-  },
-  {
-    "id": 88,
-    "nom": "Échalote",
-    "categorie": "Légume",
-    "statut": "Modération",
-    "details": "Même famille que l'oignon.",
-    "decomposition": "Lente",
-    "saisons": ["Toute l'année"]
-  },
-  {
-    "id": 89,
-    "nom": "Oignon vert",
-    "categorie": "Légume",
-    "statut": "Modération",
-    "details": "À utiliser en petite quantité.",
-    "decomposition": "Moyenne",
-    "saisons": ["Toute l'année"]
-  },
-  {
-    "id": 90,
-    "nom": "Poireau",
-    "categorie": "Légume",
-    "statut": "Modération",
-    "details": "Peut repousser les vers temporairement.",
-    "decomposition": "Lente",
-    "saisons": ["Automne"]
-  },
-  {
-    "id": 91,
-    "nom": "Gingembre",
-    "categorie": "Légume",
-    "statut": "Modération",
-    "details": "Arôme puissant.",
-    "decomposition": "Lente",
-    "saisons": ["Toute l'année"]
-  },
-  {
-    "id": 92,
-    "nom": "Curcuma",
-    "categorie": "Légume",
-    "statut": "Modération",
-    "details": "À ajouter en faible quantité.",
-    "decomposition": "Lente",
-    "saisons": ["Toute l'année"]
-  },
-  {
-    "id": 93,
-    "nom": "Piment jalapeño",
-    "categorie": "Légume",
-    "statut": "À éviter",
-    "details": "Contient de la capsaïcine.",
-    "decomposition": "Lente",
-    "saisons": ["Été"]
-  },
-  {
-    "id": 94,
-    "nom": "Piment habanero",
-    "categorie": "Légume",
-    "statut": "À éviter",
-    "details": "Très piquant.",
-    "decomposition": "Lente",
-    "saisons": ["Été"]
-  },
-  {
-    "id": 95,
-    "nom": "Piment thaï",
-    "categorie": "Légume",
-    "statut": "À éviter",
-    "details": "À proscrire.",
-    "decomposition": "Lente",
-    "saisons": ["Été"]
-  },
-  {
-    "id": 96,
-    "nom": "Rhubarbe",
-    "categorie": "Fruit",
-    "statut": "Acceptable",
-    "details": "Les tiges sont compostables.",
-    "decomposition": "Moyenne",
-    "saisons": ["Printemps"]
-  },
-  {
-    "id": 97,
-    "nom": "Camerise",
-    "categorie": "Fruit",
-    "statut": "Recommandé",
-    "details": "Petit fruit populaire au Québec.",
-    "decomposition": "Rapide",
-    "saisons": ["Été"]
-  },
-  {
-    "id": 98,
-    "nom": "Argouse",
-    "categorie": "Fruit",
-    "statut": "Acceptable",
-    "details": "Légèrement acide.",
-    "decomposition": "Moyenne",
-    "saisons": ["Automne"]
-  },
-  {
-    "id": 99,
-    "nom": "Physalis",
-    "categorie": "Fruit",
-    "statut": "Recommandé",
-    "details": "Très bon aliment lorsqu'il est mûr.",
-    "decomposition": "Rapide",
-    "saisons": ["Automne"]
-  },
-  {
-    "id": 100,
-    "nom": "Coing",
-    "categorie": "Fruit",
-    "statut": "Acceptable",
-    "details": "Plus ferme que la plupart des fruits.",
-    "decomposition": "Moyenne",
-    "saisons": ["Automne"]
-  }
+{
+  "id": 51,
+  "nom": "Aubergine",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Très bonne matière organique pour les vers."
+},
+{
+  "id": 52,
+  "nom": "Poivron vert",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Se décompose rapidement."
+},
+{
+  "id": 53,
+  "nom": "Poivron rouge",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Très apprécié lorsqu'il est mûr."
+},
+{
+  "id": 54,
+  "nom": "Poivron jaune",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Bonne source de matière verte."
+},
+{
+  "id": 55,
+  "nom": "Poivron orange",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Facilement consommé après décomposition."
+},
+{
+  "id": 56,
+  "nom": "Asperge",
+  "apport": "Azote",
+  "statut": "Acceptable",
+  "details": "Les parties fibreuses sont plus lentes à décomposer."
+},
+{
+  "id": 57,
+  "nom": "Céleri",
+  "apport": "Azote",
+  "statut": "Acceptable",
+  "details": "Les fibres ralentissent sa décomposition."
+},
+{
+  "id": 58,
+  "nom": "Bok choy",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Excellente matière verte."
+},
+{
+  "id": 59,
+  "nom": "Chou de Bruxelles",
+  "apport": "Azote",
+  "statut": "Acceptable",
+  "details": "Peut devenir odorant."
+},
+{
+  "id": 60,
+  "nom": "Rutabaga",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Très bon légume racine pour le compost."
+},
+{
+  "id": 61,
+  "nom": "Fenouil",
+  "apport": "Azote",
+  "statut": "Acceptable",
+  "details": "Son odeur peut ralentir l'intérêt des vers."
+},
+{
+  "id": 62,
+  "nom": "Okra",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Se décompose rapidement."
+},
+{
+  "id": 63,
+  "nom": "Champignon blanc",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Très apprécié en petite quantité."
+},
+{
+  "id": 64,
+  "nom": "Portobello",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Bonne nourriture pour les vers."
+},
+{
+  "id": 65,
+  "nom": "Shiitake",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Se composte facilement."
+},
+{
+  "id": 66,
+  "nom": "Camerise",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Petit fruit québécois très intéressant."
+},
+{
+  "id": 67,
+  "nom": "Argousier",
+  "apport": "Azote",
+  "statut": "Acceptable",
+  "details": "Légèrement acide."
+},
+{
+  "id": 68,
+  "nom": "Cassis",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Bonne matière organique."
+},
+{
+  "id": 69,
+  "nom": "Groseille rouge",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Les fruits mûrs sont appréciés."
+},
+{
+  "id": 70,
+  "nom": "Groseille à maquereau",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Bonne nourriture lorsqu'elle est très mûre."
+},
+{
+  "id": 71,
+  "nom": "Datte",
+  "apport": "Azote",
+  "statut": "Acceptable",
+  "details": "Très sucrée, à donner avec modération."
+},
+{
+  "id": 72,
+  "nom": "Figue",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Facilement décomposée."
+},
+{
+  "id": 73,
+  "nom": "Fruit du dragon",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Très apprécié lorsqu'il est trop mûr."
+},
+{
+  "id": 74,
+  "nom": "Litchi",
+  "apport": "Azote",
+  "statut": "Acceptable",
+  "details": "La peau est plus lente à décomposer."
+},
+{
+  "id": 75,
+  "nom": "Kaki",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Excellent lorsqu'il devient mou."
+},
+{
+  "id": 76,
+  "nom": "Goyave",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Bonne matière verte."
+},
+{
+  "id": 77,
+  "nom": "Noix de coco",
+  "apport": "Azote",
+  "statut": "Acceptable",
+  "details": "Très fibreuse et lente à décomposer."
+},
+{
+  "id": 78,
+  "nom": "Physalis",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Excellent lorsqu'il est mûr."
+},
+{
+  "id": 79,
+  "nom": "Grenade",
+  "apport": "Azote",
+  "statut": "Acceptable",
+  "details": "Les membranes sont fibreuses."
+},
+{
+  "id": 80,
+  "nom": "Ananas",
+  "apport": "Azote",
+  "statut": "Acceptable",
+  "details": "Les parties dures prennent du temps à se décomposer."
+},
+{
+  "id": 81,
+  "nom": "Coing",
+  "apport": "Azote",
+  "statut": "Acceptable",
+  "details": "Fruit plus ferme que la moyenne."
+},
+{
+  "id": 82,
+  "nom": "Topinambour",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Excellente matière organique."
+},
+{
+  "id": 83,
+  "nom": "Cresson",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Se décompose très rapidement."
+},
+{
+  "id": 84,
+  "nom": "Roquette",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Bonne matière verte."
+},
+{
+  "id": 85,
+  "nom": "Endive",
+  "apport": "Azote",
+  "statut": "Acceptable",
+  "details": "Bien tolérée par les vers."
+},
+{
+  "id": 86,
+  "nom": "Radicchio",
+  "apport": "Azote",
+  "statut": "Acceptable",
+  "details": "Légèrement amer mais compostable."
+},
+{
+  "id": 87,
+  "nom": "Chou chinois",
+  "apport": "Azote",
+  "statut": "Acceptable",
+  "details": "Peut produire une légère odeur."
+},
+{
+  "id": 88,
+  "nom": "Échalote",
+  "apport": "Azote",
+  "statut": "Modération",
+  "details": "Même famille que l'oignon."
+},
+{
+  "id": 89,
+  "nom": "Oignon vert",
+  "apport": "Azote",
+  "statut": "Modération",
+  "details": "À utiliser en petite quantité."
+},
+{
+  "id": 90,
+  "nom": "Poireau",
+  "apport": "Azote",
+  "statut": "Modération",
+  "details": "Peut repousser les vers temporairement."
+},
+{
+  "id": 91,
+  "nom": "Gingembre",
+  "apport": "Azote",
+  "statut": "Modération",
+  "details": "Arôme puissant à utiliser avec parcimonie."
+},
+{
+  "id": 92,
+  "nom": "Curcuma",
+  "apport": "Azote",
+  "statut": "Modération",
+  "details": "À ajouter en faible quantité."
+},
+{
+  "id": 93,
+  "nom": "Piment jalapeño",
+  "apport": "Azote",
+  "statut": "À éviter",
+  "details": "Contient de la capsaïcine."
+},
+{
+  "id": 94,
+  "nom": "Piment habanero",
+  "apport": "Azote",
+  "statut": "À éviter",
+  "details": "Très piquant pour les vers."
+},
+{
+  "id": 95,
+  "nom": "Piment thaï",
+  "apport": "Azote",
+  "statut": "À éviter",
+  "details": "À proscrire du vermicompost."
+},
+{
+  "id": 96,
+  "nom": "Rhubarbe",
+  "apport": "Azote",
+  "statut": "Acceptable",
+  "details": "Les tiges sont compostables."
+},
+{
+  "id": 97,
+  "nom": "Nopal",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Cactus comestible riche en eau."
+},
+{
+  "id": 98,
+  "nom": "Pomme grenade",
+  "apport": "Azote",
+  "statut": "Acceptable",
+  "details": "Les parties molles sont bien acceptées."
+},
+{
+  "id": 99,
+  "nom": "Yuzu",
+  "apport": "Azote",
+  "statut": "Modération",
+  "details": "Agrume très acide."
+},
+{
+  "id": 100,
+  "nom": "Carambole",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Fruit tendre lorsque mûr."
+}
+,
+{
+  "id": 101,
+  "nom": "Carton brun",
+  "apport": "Carbone",
+  "statut": "Recommandé",
+  "details": "Excellent pour équilibrer l'humidité du bac."
+},
+{
+  "id": 102,
+  "nom": "Carton ondulé",
+  "apport": "Carbone",
+  "statut": "Recommandé",
+  "details": "Très bon matériau de litière."
+},
+{
+  "id": 103,
+  "nom": "Boîte d'œufs en carton",
+  "apport": "Carbone",
+  "statut": "Recommandé",
+  "details": "Se décompose facilement après déchiquetage."
+},
+{
+  "id": 104,
+  "nom": "Rouleau de papier toilette",
+  "apport": "Carbone",
+  "statut": "Recommandé",
+  "details": "Excellent ajout pour aérer le bac."
+},
+{
+  "id": 105,
+  "nom": "Rouleau d'essuie-tout",
+  "apport": "Carbone",
+  "statut": "Recommandé",
+  "details": "Bonne source de carbone."
+},
+{
+  "id": 106,
+  "nom": "Papier journal noir et blanc",
+  "apport": "Carbone",
+  "statut": "Recommandé",
+  "details": "À déchiqueter avant utilisation."
+},
+{
+  "id": 107,
+  "nom": "Papier brouillon non glacé",
+  "apport": "Carbone",
+  "statut": "Acceptable",
+  "details": "À utiliser sans excès."
+},
+{
+  "id": 108,
+  "nom": "Papier déchiqueté",
+  "apport": "Carbone",
+  "statut": "Recommandé",
+  "details": "Excellente litière pour les vers."
+},
+{
+  "id": 109,
+  "nom": "Papier kraft",
+  "apport": "Carbone",
+  "statut": "Recommandé",
+  "details": "Très bon matériau brun."
+},
+{
+  "id": 110,
+  "nom": "Sac de papier brun",
+  "apport": "Carbone",
+  "statut": "Recommandé",
+  "details": "À déchirer en morceaux avant utilisation."
+},
+{
+  "id": 111,
+  "nom": "Carton de céréales sans pellicule",
+  "apport": "Carbone",
+  "statut": "Acceptable",
+  "details": "Retirer les parties plastifiées."
+},
+{
+  "id": 112,
+  "nom": "Carton de livraison",
+  "apport": "Carbone",
+  "statut": "Recommandé",
+  "details": "Excellent après déchiquetage."
+},
+{
+  "id": 113,
+  "nom": "Feuilles mortes d'érable",
+  "apport": "Carbone",
+  "statut": "Recommandé",
+  "details": "Excellent brun naturel."
+},
+{
+  "id": 114,
+  "nom": "Feuilles mortes de bouleau",
+  "apport": "Carbone",
+  "statut": "Recommandé",
+  "details": "Bonne matière sèche."
+},
+{
+  "id": 115,
+  "nom": "Feuilles mortes de peuplier",
+  "apport": "Carbone",
+  "statut": "Recommandé",
+  "details": "Très utiles pour équilibrer le bac."
+},
+{
+  "id": 116,
+  "nom": "Feuilles mortes de chêne",
+  "apport": "Carbone",
+  "statut": "Acceptable",
+  "details": "Plus lentes à se décomposer."
+},
+{
+  "id": 117,
+  "nom": "Feuilles mortes mélangées",
+  "apport": "Carbone",
+  "statut": "Recommandé",
+  "details": "Excellent apport de carbone."
+},
+{
+  "id": 118,
+  "nom": "Paille",
+  "apport": "Carbone",
+  "statut": "Recommandé",
+  "details": "Aide à l'aération du bac."
+},
+{
+  "id": 119,
+  "nom": "Foin sec",
+  "apport": "Carbone",
+  "statut": "Acceptable",
+  "details": "Peut contenir des graines."
+},
+{
+  "id": 120,
+  "nom": "Sciure de bois non traité",
+  "apport": "Carbone",
+  "statut": "Acceptable",
+  "details": "À utiliser en petite quantité."
+},
+{
+  "id": 121,
+  "nom": "Copeaux de bois non traité",
+  "apport": "Carbone",
+  "statut": "Acceptable",
+  "details": "Décomposition lente."
+},
+{
+  "id": 122,
+  "nom": "Bran de scie non traité",
+  "apport": "Carbone",
+  "statut": "Acceptable",
+  "details": "À ajouter avec modération."
+},
+{
+  "id": 123,
+  "nom": "Fibre de coco",
+  "apport": "Carbone",
+  "statut": "Recommandé",
+  "details": "Excellente litière pour démarrer un bac."
+},
+{
+  "id": 124,
+  "nom": "Tourbe de coco",
+  "apport": "Carbone",
+  "statut": "Recommandé",
+  "details": "Retient bien l'humidité."
+},
+{
+  "id": 125,
+  "nom": "Coques de noix concassées",
+  "apport": "Carbone",
+  "statut": "Acceptable",
+  "details": "Très lentes à se décomposer."
+},
+{
+  "id": 126,
+  "nom": "Écorce de bois non traité",
+  "apport": "Carbone",
+  "statut": "Acceptable",
+  "details": "Décomposition lente mais utile."
+},
+{
+  "id": 127,
+  "nom": "Aiguilles de pin sèches",
+  "apport": "Carbone",
+  "statut": "Modération",
+  "details": "Peuvent acidifier le milieu."
+},
+{
+  "id": 128,
+  "nom": "Rameaux fins broyés",
+  "apport": "Carbone",
+  "statut": "Acceptable",
+  "details": "Favorisent l'aération."
+},
+{
+  "id": 129,
+  "nom": "Bois raméal fragmenté",
+  "apport": "Carbone",
+  "statut": "Acceptable",
+  "details": "Décomposition graduelle."
+},
+{
+  "id": 130,
+  "nom": "Papier brun d'emballage",
+  "apport": "Carbone",
+  "statut": "Recommandé",
+  "details": "Excellent matériau brun."
+},
+{
+  "id": 131,
+  "nom": "Serviettes en papier non imprimées",
+  "apport": "Carbone",
+  "statut": "Acceptable",
+  "details": "À condition qu'elles ne contiennent pas de produits chimiques."
+},
+{
+  "id": 132,
+  "nom": "Mouchoirs en papier propres",
+  "apport": "Carbone",
+  "statut": "Acceptable",
+  "details": "Bonne source de fibres."
+},
+{
+  "id": 133,
+  "nom": "Papier filtre non blanchi",
+  "apport": "Carbone",
+  "statut": "Recommandé",
+  "details": "Se décompose facilement."
+},
+{
+  "id": 134,
+  "nom": "Boîte de carton sans encre brillante",
+  "apport": "Carbone",
+  "statut": "Recommandé",
+  "details": "Très utile comme brun."
+},
+{
+  "id": 135,
+  "nom": "Carton d'expédition recyclé",
+  "apport": "Carbone",
+  "statut": "Recommandé",
+  "details": "Excellent après déchiquetage."
+},
+{
+  "id": 136,
+  "nom": "Litière de coco",
+  "apport": "Carbone",
+  "statut": "Recommandé",
+  "details": "Parfaite pour les vers."
+},
+{
+  "id": 137,
+  "nom": "Chanvre séché",
+  "apport": "Carbone",
+  "statut": "Recommandé",
+  "details": "Bonne rétention d'humidité."
+},
+{
+  "id": 138,
+  "nom": "Paille de lin",
+  "apport": "Carbone",
+  "statut": "Recommandé",
+  "details": "Très bonne litière."
+},
+{
+  "id": 139,
+  "nom": "Tiges de tournesol séchées",
+  "apport": "Carbone",
+  "statut": "Acceptable",
+  "details": "À broyer avant utilisation."
+},
+{
+  "id": 140,
+  "nom": "Feuilles de maïs sèches",
+  "apport": "Carbone",
+  "statut": "Recommandé",
+  "details": "Excellente matière brune."
+},
+{
+  "id": 141,
+  "nom": "Barbes de maïs séchées",
+  "apport": "Carbone",
+  "statut": "Recommandé",
+  "details": "Se compostent facilement."
+},
+{
+  "id": 142,
+  "nom": "Tiges de haricots séchées",
+  "apport": "Carbone",
+  "statut": "Acceptable",
+  "details": "À couper en petits morceaux."
+},
+{
+  "id": 143,
+  "nom": "Paille de blé",
+  "apport": "Carbone",
+  "statut": "Recommandé",
+  "details": "Très bonne source de carbone."
+},
+{
+  "id": 144,
+  "nom": "Paille d'avoine",
+  "apport": "Carbone",
+  "statut": "Recommandé",
+  "details": "Excellente matière sèche."
+},
+{
+  "id": 145,
+  "nom": "Fibre végétale sèche",
+  "apport": "Carbone",
+  "statut": "Recommandé",
+  "details": "Favorise un bon équilibre du bac."
+},
+{
+  "id": 146,
+  "nom": "Bois de feuillus broyé",
+  "apport": "Carbone",
+  "statut": "Acceptable",
+  "details": "À utiliser comme complément."
+},
+{
+  "id": 147,
+  "nom": "Papier d'emballage recyclé",
+  "apport": "Carbone",
+  "statut": "Acceptable",
+  "details": "Éviter les parties plastifiées."
+},
+{
+  "id": 148,
+  "nom": "Copeaux de peuplier",
+  "apport": "Carbone",
+  "statut": "Acceptable",
+  "details": "Décomposition lente."
+},
+{
+  "id": 149,
+  "nom": "Copeaux d'érable",
+  "apport": "Carbone",
+  "statut": "Acceptable",
+  "details": "À mélanger avec des matières azotées."
+},
+{
+  "id": 150,
+  "nom": "Litière de papier recyclé",
+  "apport": "Carbone",
+  "statut": "Recommandé",
+  "details": "Très pratique pour contrôler l'humidité."
+}
+,
+{
+  "id": 151,
+  "nom": "Marc de café",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Très apprécié lorsqu'utilisé avec modération."
+},
+{
+  "id": 152,
+  "nom": "Filtre à café en papier",
+  "apport": "Carbone",
+  "statut": "Recommandé",
+  "details": "Se décompose facilement avec le marc."
+},
+{
+  "id": 153,
+  "nom": "Sachet de thé papier",
+  "apport": "Mixte",
+  "statut": "Recommandé",
+  "details": "Retirer les parties plastiques si présentes."
+},
+{
+  "id": 154,
+  "nom": "Thé en feuilles",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Excellent ajout au vermicompost."
+},
+{
+  "id": 155,
+  "nom": "Coquille d'œuf broyée",
+  "apport": "Mixte",
+  "statut": "Recommandé",
+  "details": "Apporte du calcium et aide à stabiliser le pH."
+},
+{
+  "id": 156,
+  "nom": "Pain blanc sec",
+  "apport": "Mixte",
+  "statut": "Acceptable",
+  "details": "À donner en petite quantité."
+},
+{
+  "id": 157,
+  "nom": "Pain de blé entier",
+  "apport": "Mixte",
+  "statut": "Acceptable",
+  "details": "À éviter en trop grande quantité."
+},
+{
+  "id": 158,
+  "nom": "Croûtes de pain",
+  "apport": "Mixte",
+  "statut": "Acceptable",
+  "details": "Se compostent bien lorsqu'elles sont humides."
+},
+{
+  "id": 159,
+  "nom": "Gruau cuit",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Très apprécié des vers."
+},
+{
+  "id": 160,
+  "nom": "Flocons d'avoine secs",
+  "apport": "Mixte",
+  "statut": "Recommandé",
+  "details": "Bonne nourriture en petite quantité."
+},
+{
+  "id": 161,
+  "nom": "Son d'avoine",
+  "apport": "Mixte",
+  "statut": "Recommandé",
+  "details": "Source intéressante de matière organique."
+},
+{
+  "id": 162,
+  "nom": "Son de blé",
+  "apport": "Mixte",
+  "statut": "Recommandé",
+  "details": "Très apprécié lorsqu'il est humide."
+},
+{
+  "id": 163,
+  "nom": "Céréales nature",
+  "apport": "Mixte",
+  "statut": "Acceptable",
+  "details": "À utiliser avec modération."
+},
+{
+  "id": 164,
+  "nom": "Muesli nature",
+  "apport": "Mixte",
+  "statut": "Acceptable",
+  "details": "Éviter les versions très sucrées."
+},
+{
+  "id": 165,
+  "nom": "Riz blanc cuit",
+  "apport": "Azote",
+  "statut": "Acceptable",
+  "details": "À donner en petite quantité."
+},
+{
+  "id": 166,
+  "nom": "Riz brun cuit",
+  "apport": "Azote",
+  "statut": "Acceptable",
+  "details": "Mieux toléré que le riz très collant."
+},
+{
+  "id": 167,
+  "nom": "Pâtes cuites nature",
+  "apport": "Azote",
+  "statut": "Acceptable",
+  "details": "À utiliser avec modération."
+},
+{
+  "id": 168,
+  "nom": "Nouilles nature",
+  "apport": "Azote",
+  "statut": "Acceptable",
+  "details": "Éviter les sauces."
+},
+{
+  "id": 169,
+  "nom": "Farine périmée",
+  "apport": "Mixte",
+  "statut": "Acceptable",
+  "details": "Ajouter en petite quantité."
+},
+{
+  "id": 170,
+  "nom": "Semoule",
+  "apport": "Mixte",
+  "statut": "Acceptable",
+  "details": "Bonne source de matière organique."
+},
+{
+  "id": 171,
+  "nom": "Quinoa cuit",
+  "apport": "Azote",
+  "statut": "Acceptable",
+  "details": "À incorporer en petites portions."
+},
+{
+  "id": 172,
+  "nom": "Orge cuite",
+  "apport": "Azote",
+  "statut": "Acceptable",
+  "details": "Se décompose assez bien."
+},
+{
+  "id": 173,
+  "nom": "Lentilles cuites",
+  "apport": "Azote",
+  "statut": "Acceptable",
+  "details": "Riches en azote."
+},
+{
+  "id": 174,
+  "nom": "Pois chiches cuits",
+  "apport": "Azote",
+  "statut": "Acceptable",
+  "details": "À donner avec modération."
+},
+{
+  "id": 175,
+  "nom": "Haricots cuits nature",
+  "apport": "Azote",
+  "statut": "Acceptable",
+  "details": "Éviter les versions assaisonnées."
+},
+{
+  "id": 176,
+  "nom": "Épluchures de pommes",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Excellente nourriture pour les vers."
+},
+{
+  "id": 177,
+  "nom": "Pelures de banane",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Très appréciées."
+},
+{
+  "id": 178,
+  "nom": "Pelures de poire",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Bonne matière azotée."
+},
+{
+  "id": 179,
+  "nom": "Trognons de pomme",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Se décomposent facilement."
+},
+{
+  "id": 180,
+  "nom": "Restes de salade",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Très populaires auprès des vers."
+},
+{
+  "id": 181,
+  "nom": "Feuilles de laitue fanées",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Excellente matière verte."
+},
+{
+  "id": 182,
+  "nom": "Fanes de carotte",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Très bonnes pour le compost."
+},
+{
+  "id": 183,
+  "nom": "Fanes de betterave",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Bonne matière organique."
+},
+{
+  "id": 184,
+  "nom": "Fanes de radis",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Se décomposent rapidement."
+},
+{
+  "id": 185,
+  "nom": "Épluchures de carotte",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Très bien acceptées."
+},
+{
+  "id": 186,
+  "nom": "Épluchures de concombre",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Aliment très apprécié."
+},
+{
+  "id": 187,
+  "nom": "Épluchures de patate douce",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Bonne source de nourriture."
+},
+{
+  "id": 188,
+  "nom": "Épluchures de pomme de terre",
+  "apport": "Azote",
+  "statut": "Acceptable",
+  "details": "À enfouir pour éviter la germination."
+},
+{
+  "id": 189,
+  "nom": "Coquilles de noix",
+  "apport": "Carbone",
+  "statut": "Acceptable",
+  "details": "Très lentes à se décomposer."
+},
+{
+  "id": 190,
+  "nom": "Coquilles d'arachides non salées",
+  "apport": "Carbone",
+  "statut": "Acceptable",
+  "details": "Bonne source de fibres."
+},
+{
+  "id": 191,
+  "nom": "Maïs soufflé nature",
+  "apport": "Mixte",
+  "statut": "Acceptable",
+  "details": "Sans beurre ni sel."
+},
+{
+  "id": 192,
+  "nom": "Bière éventée",
+  "apport": "Azote",
+  "statut": "Acceptable",
+  "details": "À très faible dose."
+},
+{
+  "id": 193,
+  "nom": "Levure alimentaire périmée",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Peut stimuler l'activité microbienne."
+},
+{
+  "id": 194,
+  "nom": "Résidus de jus de fruits",
+  "apport": "Azote",
+  "statut": "Acceptable",
+  "details": "À utiliser modérément pour éviter l'excès d'humidité."
+},
+{
+  "id": 195,
+  "nom": "Pulpe de jus maison",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Très facile à décomposer."
+},
+{
+  "id": 196,
+  "nom": "Restes de smoothie",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Les vers les consomment rapidement."
+},
+{
+  "id": 197,
+  "nom": "Pulpe de café",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Excellente source de nourriture."
+},
+{
+  "id": 198,
+  "nom": "Restes de légumes cuits sans sel",
+  "apport": "Azote",
+  "statut": "Acceptable",
+  "details": "Éviter les assaisonnements."
+},
+{
+  "id": 199,
+  "nom": "Restes de fruits coupés",
+  "apport": "Azote",
+  "statut": "Recommandé",
+  "details": "Très appréciés des vers."
+},
+{
+  "id": 200,
+  "nom": "Mélange de résidus végétaux",
+  "apport": "Mixte",
+  "statut": "Recommandé",
+  "details": "Excellent pour maintenir une alimentation variée."
+}
 ]
