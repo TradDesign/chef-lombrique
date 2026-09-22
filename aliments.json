@@ -1,0 +1,903 @@
+[
+  {
+    "id": 1,
+    "nom": "Pomme",
+    "categorie": "Fruit",
+    "statut": "Recommandé",
+    "details": "Très appréciée des Red Wigglers.",
+    "decomposition": "Rapide",
+    "saisons": ["Automne"]
+  },
+  {
+    "id": 2,
+    "nom": "Poire",
+    "categorie": "Fruit",
+    "statut": "Recommandé",
+    "details": "Fruit doux facilement consommé par les vers.",
+    "decomposition": "Rapide",
+    "saisons": ["Automne"]
+  },
+  {
+    "id": 3,
+    "nom": "Banane",
+    "categorie": "Fruit",
+    "statut": "Recommandé",
+    "details": "Les pelures sont excellentes pour le vermicompostage.",
+    "decomposition": "Rapide",
+    "saisons": ["Toute l'année"]
+  },
+  {
+    "id": 4,
+    "nom": "Fraise",
+    "categorie": "Fruit",
+    "statut": "Recommandé",
+    "details": "Très appréciée lorsqu'elle est trop mûre.",
+    "decomposition": "Rapide",
+    "saisons": ["Été"]
+  },
+  {
+    "id": 5,
+    "nom": "Framboise",
+    "categorie": "Fruit",
+    "statut": "Recommandé",
+    "details": "Bonne source de matière organique.",
+    "decomposition": "Rapide",
+    "saisons": ["Été"]
+  },
+  {
+    "id": 6,
+    "nom": "Bleuet",
+    "categorie": "Fruit",
+    "statut": "Recommandé",
+    "details": "Les fruits abîmés sont parfaits.",
+    "decomposition": "Rapide",
+    "saisons": ["Été"]
+  },
+  {
+    "id": 7,
+    "nom": "Mûre",
+    "categorie": "Fruit",
+    "statut": "Recommandé",
+    "details": "Se décompose rapidement.",
+    "decomposition": "Rapide",
+    "saisons": ["Été"]
+  },
+  {
+    "id": 8,
+    "nom": "Raisin",
+    "categorie": "Fruit",
+    "statut": "Recommandé",
+    "details": "Les raisins mous sont appréciés.",
+    "decomposition": "Rapide",
+    "saisons": ["Automne"]
+  },
+  {
+    "id": 9,
+    "nom": "Pêche",
+    "categorie": "Fruit",
+    "statut": "Recommandé",
+    "details": "Très bonne nourriture lorsqu'elle est mûre.",
+    "decomposition": "Rapide",
+    "saisons": ["Été"]
+  },
+  {
+    "id": 10,
+    "nom": "Nectarine",
+    "categorie": "Fruit",
+    "statut": "Recommandé",
+    "details": "Aliment doux facile à décomposer.",
+    "decomposition": "Rapide",
+    "saisons": ["Été"]
+  },
+  {
+    "id": 11,
+    "nom": "Prune",
+    "categorie": "Fruit",
+    "statut": "Recommandé",
+    "details": "Se décompose rapidement.",
+    "decomposition": "Rapide",
+    "saisons": ["Été"]
+  },
+  {
+    "id": 12,
+    "nom": "Abricot",
+    "categorie": "Fruit",
+    "statut": "Recommandé",
+    "details": "Excellent lorsque très mûr.",
+    "decomposition": "Rapide",
+    "saisons": ["Été"]
+  },
+  {
+    "id": 13,
+    "nom": "Pastèque",
+    "categorie": "Fruit",
+    "statut": "Recommandé",
+    "details": "Les écorces sont très populaires auprès des vers.",
+    "decomposition": "Rapide",
+    "saisons": ["Été"]
+  },
+  {
+    "id": 14,
+    "nom": "Cantaloup",
+    "categorie": "Fruit",
+    "statut": "Recommandé",
+    "details": "Excellent ajout au bac.",
+    "decomposition": "Rapide",
+    "saisons": ["Été"]
+  },
+  {
+    "id": 15,
+    "nom": "Melon miel",
+    "categorie": "Fruit",
+    "statut": "Recommandé",
+    "details": "Très apprécié.",
+    "decomposition": "Rapide",
+    "saisons": ["Été"]
+  },
+  {
+    "id": 16,
+    "nom": "Mangue",
+    "categorie": "Fruit",
+    "statut": "Recommandé",
+    "details": "Les parties trop mûres se compostent bien.",
+    "decomposition": "Rapide",
+    "saisons": ["Toute l'année"]
+  },
+  {
+    "id": 17,
+    "nom": "Papaye",
+    "categorie": "Fruit",
+    "statut": "Recommandé",
+    "details": "Très facile à décomposer.",
+    "decomposition": "Rapide",
+    "saisons": ["Toute l'année"]
+  },
+  {
+    "id": 18,
+    "nom": "Kiwi",
+    "categorie": "Fruit",
+    "statut": "Recommandé",
+    "details": "Accepté sans problème.",
+    "decomposition": "Rapide",
+    "saisons": ["Toute l'année"]
+  },
+  {
+    "id": 19,
+    "nom": "Ananas",
+    "categorie": "Fruit",
+    "statut": "Acceptable",
+    "details": "Les feuilles et le cœur sont plus lents à décomposer.",
+    "decomposition": "Moyenne",
+    "saisons": ["Toute l'année"]
+  },
+  {
+    "id": 20,
+    "nom": "Grenade",
+    "categorie": "Fruit",
+    "statut": "Acceptable",
+    "details": "Les membranes sont plus fibreuses.",
+    "decomposition": "Moyenne",
+    "saisons": ["Toute l'année"]
+  },
+  {
+    "id": 21,
+    "nom": "Orange",
+    "categorie": "Fruit",
+    "statut": "Modération",
+    "details": "Agrume acide à donner en petite quantité.",
+    "decomposition": "Moyenne",
+    "saisons": ["Toute l'année"]
+  },
+  {
+    "id": 22,
+    "nom": "Citron",
+    "categorie": "Fruit",
+    "statut": "Modération",
+    "details": "Très acide pour le bac.",
+    "decomposition": "Moyenne",
+    "saisons": ["Toute l'année"]
+  },
+  {
+    "id": 23,
+    "nom": "Lime",
+    "categorie": "Fruit",
+    "statut": "Modération",
+    "details": "À utiliser avec parcimonie.",
+    "decomposition": "Moyenne",
+    "saisons": ["Toute l'année"]
+  },
+  {
+    "id": 24,
+    "nom": "Pamplemousse",
+    "categorie": "Fruit",
+    "statut": "Modération",
+    "details": "Agrume généralement accepté en faible quantité.",
+    "decomposition": "Moyenne",
+    "saisons": ["Toute l'année"]
+  },
+  {
+    "id": 25,
+    "nom": "Carotte",
+    "categorie": "Légume",
+    "statut": "Recommandé",
+    "details": "Excellente nourriture pour les vers.",
+    "decomposition": "Moyenne",
+    "saisons": ["Toute l'année"]
+  },
+  {
+    "id": 26,
+    "nom": "Concombre",
+    "categorie": "Légume",
+    "statut": "Recommandé",
+    "details": "Très apprécié par les Red Wigglers.",
+    "decomposition": "Rapide",
+    "saisons": ["Été"]
+  },
+  {
+    "id": 27,
+    "nom": "Tomate",
+    "categorie": "Légume",
+    "statut": "Recommandé",
+    "details": "Se décompose rapidement.",
+    "decomposition": "Rapide",
+    "saisons": ["Été"]
+  },
+  {
+    "id": 28,
+    "nom": "Laitue",
+    "categorie": "Légume",
+    "statut": "Recommandé",
+    "details": "Aliment facile à composter.",
+    "decomposition": "Rapide",
+    "saisons": ["Été"]
+  },
+  {
+    "id": 29,
+    "nom": "Romaine",
+    "categorie": "Légume",
+    "statut": "Recommandé",
+    "details": "Très appréciée.",
+    "decomposition": "Rapide",
+    "saisons": ["Été"]
+  },
+  {
+    "id": 30,
+    "nom": "Épinard",
+    "categorie": "Légume",
+    "statut": "Recommandé",
+    "details": "Bonne source de matière verte.",
+    "decomposition": "Rapide",
+    "saisons": ["Été"]
+  },
+  {
+    "id": 31,
+    "nom": "Kale",
+    "categorie": "Légume",
+    "statut": "Acceptable",
+    "details": "Peut prendre un peu plus de temps à se décomposer.",
+    "decomposition": "Moyenne",
+    "saisons": ["Été", "Automne"]
+  },
+  {
+    "id": 32,
+    "nom": "Courgette",
+    "categorie": "Légume",
+    "statut": "Recommandé",
+    "details": "Excellent aliment pour les vers.",
+    "decomposition": "Rapide",
+    "saisons": ["Été"]
+  },
+  {
+    "id": 33,
+    "nom": "Courge spaghetti",
+    "categorie": "Légume",
+    "statut": "Recommandé",
+    "details": "Très bonne source de matière organique.",
+    "decomposition": "Moyenne",
+    "saisons": ["Automne"]
+  },
+  {
+    "id": 34,
+    "nom": "Citrouille",
+    "categorie": "Légume",
+    "statut": "Recommandé",
+    "details": "Les vers adorent les citrouilles ramollies.",
+    "decomposition": "Rapide",
+    "saisons": ["Automne"]
+  },
+  {
+    "id": 35,
+    "nom": "Patate douce",
+    "categorie": "Légume",
+    "statut": "Recommandé",
+    "details": "Bonne source de matière organique.",
+    "decomposition": "Moyenne",
+    "saisons": ["Automne"]
+  },
+  {
+    "id": 36,
+    "nom": "Pomme de terre",
+    "categorie": "Légume",
+    "statut": "Acceptable",
+    "details": "À couper en petits morceaux.",
+    "decomposition": "Moyenne",
+    "saisons": ["Toute l'année"]
+  },
+  {
+    "id": 37,
+    "nom": "Navet",
+    "categorie": "Légume",
+    "statut": "Recommandé",
+    "details": "Bonne nourriture pour les vers.",
+    "decomposition": "Moyenne",
+    "saisons": ["Automne"]
+  },
+  {
+    "id": 38,
+    "nom": "Panais",
+    "categorie": "Légume",
+    "statut": "Recommandé",
+    "details": "Se composte bien.",
+    "decomposition": "Moyenne",
+    "saisons": ["Automne"]
+  },
+  {
+    "id": 39,
+    "nom": "Betterave",
+    "categorie": "Légume",
+    "statut": "Recommandé",
+    "details": "Bonne matière organique.",
+    "decomposition": "Moyenne",
+    "saisons": ["Automne"]
+  },
+  {
+    "id": 40,
+    "nom": "Radis",
+    "categorie": "Légume",
+    "statut": "Recommandé",
+    "details": "Se décompose facilement.",
+    "decomposition": "Moyenne",
+    "saisons": ["Été"]
+  },
+  {
+    "id": 41,
+    "nom": "Haricot vert",
+    "categorie": "Légume",
+    "statut": "Recommandé",
+    "details": "Excellent dans le vermicompost.",
+    "decomposition": "Rapide",
+    "saisons": ["Été"]
+  },
+  {
+    "id": 42,
+    "nom": "Pois",
+    "categorie": "Légume",
+    "statut": "Recommandé",
+    "details": "Très apprécié.",
+    "decomposition": "Rapide",
+    "saisons": ["Été"]
+  },
+  {
+    "id": 43,
+    "nom": "Maïs",
+    "categorie": "Légume",
+    "statut": "Acceptable",
+    "details": "Les grains sont plus lents à décomposer.",
+    "decomposition": "Lente",
+    "saisons": ["Été"]
+  },
+  {
+    "id": 44,
+    "nom": "Brocoli",
+    "categorie": "Légume",
+    "statut": "Acceptable",
+    "details": "Peut produire des odeurs en se décomposant.",
+    "decomposition": "Moyenne",
+    "saisons": ["Été", "Automne"]
+  },
+  {
+    "id": 45,
+    "nom": "Chou-fleur",
+    "categorie": "Légume",
+    "statut": "Acceptable",
+    "details": "À enfouir pour limiter les odeurs.",
+    "decomposition": "Moyenne",
+    "saisons": ["Été", "Automne"]
+  },
+  {
+    "id": 46,
+    "nom": "Chou vert",
+    "categorie": "Légume",
+    "statut": "Acceptable",
+    "details": "Bonne matière organique mais odorante.",
+    "decomposition": "Moyenne",
+    "saisons": ["Automne"]
+  },
+  {
+    "id": 47,
+    "nom": "Chou rouge",
+    "categorie": "Légume",
+    "statut": "Acceptable",
+    "details": "Peut produire des odeurs.",
+    "decomposition": "Moyenne",
+    "saisons": ["Automne"]
+  },
+  {
+    "id": 48,
+    "nom": "Oignon",
+    "categorie": "Légume",
+    "statut": "Modération",
+    "details": "À utiliser en petites quantités.",
+    "decomposition": "Lente",
+    "saisons": ["Toute l'année"]
+  },
+  {
+    "id": 49,
+    "nom": "Ail",
+    "categorie": "Légume",
+    "statut": "Modération",
+    "details": "Les vers l'apprécient peu.",
+    "decomposition": "Lente",
+    "saisons": ["Toute l'année"]
+  },
+  {
+    "id": 50,
+    "nom": "Piment fort",
+    "categorie": "Légume",
+    "statut": "À éviter",
+    "details": "Les vers évitent les aliments très piquants.",
+    "decomposition": "Lente",
+    "saisons": ["Été"]
+  }
+  ,
+  {
+    "id": 51,
+    "nom": "Poivron vert",
+    "categorie": "Légume",
+    "statut": "Recommandé",
+    "details": "Se décompose facilement lorsqu'il est coupé.",
+    "decomposition": "Rapide",
+    "saisons": ["Été"]
+  },
+  {
+    "id": 52,
+    "nom": "Poivron rouge",
+    "categorie": "Légume",
+    "statut": "Recommandé",
+    "details": "Très apprécié des vers.",
+    "decomposition": "Rapide",
+    "saisons": ["Été"]
+  },
+  {
+    "id": 53,
+    "nom": "Poivron jaune",
+    "categorie": "Légume",
+    "statut": "Recommandé",
+    "details": "Bonne source de matière organique.",
+    "decomposition": "Rapide",
+    "saisons": ["Été"]
+  },
+  {
+    "id": 54,
+    "nom": "Poivron orange",
+    "categorie": "Légume",
+    "statut": "Recommandé",
+    "details": "Facilement consommé après décomposition.",
+    "decomposition": "Rapide",
+    "saisons": ["Été"]
+  },
+  {
+    "id": 55,
+    "nom": "Asperge",
+    "categorie": "Légume",
+    "statut": "Acceptable",
+    "details": "Les parties fibreuses sont plus lentes à décomposer.",
+    "decomposition": "Moyenne",
+    "saisons": ["Printemps"]
+  },
+  {
+    "id": 56,
+    "nom": "Céleri",
+    "categorie": "Légume",
+    "statut": "Acceptable",
+    "details": "Les fibres ralentissent la décomposition.",
+    "decomposition": "Moyenne",
+    "saisons": ["Toute l'année"]
+  },
+  {
+    "id": 57,
+    "nom": "Bok choy",
+    "categorie": "Légume",
+    "statut": "Recommandé",
+    "details": "Excellente matière verte.",
+    "decomposition": "Rapide",
+    "saisons": ["Été"]
+  },
+  {
+    "id": 58,
+    "nom": "Chou de Bruxelles",
+    "categorie": "Légume",
+    "statut": "Acceptable",
+    "details": "Peut devenir odorant.",
+    "decomposition": "Moyenne",
+    "saisons": ["Automne"]
+  },
+  {
+    "id": 59,
+    "nom": "Rutabaga",
+    "categorie": "Légume",
+    "statut": "Recommandé",
+    "details": "Très bon légume racine pour le compost.",
+    "decomposition": "Moyenne",
+    "saisons": ["Automne"]
+  },
+  {
+    "id": 60,
+    "nom": "Fenouil",
+    "categorie": "Légume",
+    "statut": "Acceptable",
+    "details": "Son odeur peut ralentir l'intérêt des vers.",
+    "decomposition": "Moyenne",
+    "saisons": ["Été"]
+  },
+  {
+    "id": 61,
+    "nom": "Aubergine",
+    "categorie": "Légume",
+    "statut": "Recommandé",
+    "details": "Très bonne matière organique.",
+    "decomposition": "Rapide",
+    "saisons": ["Été"]
+  },
+  {
+    "id": 62,
+    "nom": "Okra",
+    "categorie": "Légume",
+    "statut": "Recommandé",
+    "details": "Se décompose rapidement.",
+    "decomposition": "Rapide",
+    "saisons": ["Été"]
+  },
+  {
+    "id": 63,
+    "nom": "Champignon blanc",
+    "categorie": "Légume",
+    "statut": "Recommandé",
+    "details": "Très apprécié en petite quantité.",
+    "decomposition": "Rapide",
+    "saisons": ["Toute l'année"]
+  },
+  {
+    "id": 64,
+    "nom": "Portobello",
+    "categorie": "Légume",
+    "statut": "Recommandé",
+    "details": "Bonne nourriture pour les vers.",
+    "decomposition": "Rapide",
+    "saisons": ["Toute l'année"]
+  },
+  {
+    "id": 65,
+    "nom": "Shiitake",
+    "categorie": "Légume",
+    "statut": "Recommandé",
+    "details": "Se composte facilement.",
+    "decomposition": "Rapide",
+    "saisons": ["Toute l'année"]
+  },
+  {
+    "id": 66,
+    "nom": "Avocat",
+    "categorie": "Fruit",
+    "statut": "Recommandé",
+    "details": "Très apprécié lorsqu'il est mûr.",
+    "decomposition": "Rapide",
+    "saisons": ["Toute l'année"]
+  },
+  {
+    "id": 67,
+    "nom": "Cerise",
+    "categorie": "Fruit",
+    "statut": "Recommandé",
+    "details": "Les fruits trop mûrs sont excellents.",
+    "decomposition": "Rapide",
+    "saisons": ["Été"]
+  },
+  {
+    "id": 68,
+    "nom": "Canneberge",
+    "categorie": "Fruit",
+    "statut": "Acceptable",
+    "details": "Légèrement acide.",
+    "decomposition": "Moyenne",
+    "saisons": ["Automne"]
+  },
+  {
+    "id": 69,
+    "nom": "Cassis",
+    "categorie": "Fruit",
+    "statut": "Recommandé",
+    "details": "Bonne matière organique.",
+    "decomposition": "Rapide",
+    "saisons": ["Été"]
+  },
+  {
+    "id": 70,
+    "nom": "Groseille",
+    "categorie": "Fruit",
+    "statut": "Recommandé",
+    "details": "Les fruits ramollis sont appréciés.",
+    "decomposition": "Rapide",
+    "saisons": ["Été"]
+  },
+  {
+    "id": 71,
+    "nom": "Mûre blanche",
+    "categorie": "Fruit",
+    "statut": "Recommandé",
+    "details": "Très bonne nourriture.",
+    "decomposition": "Rapide",
+    "saisons": ["Été"]
+  },
+  {
+    "id": 72,
+    "nom": "Datte",
+    "categorie": "Fruit",
+    "statut": "Acceptable",
+    "details": "Très sucrée, à utiliser avec modération.",
+    "decomposition": "Moyenne",
+    "saisons": ["Toute l'année"]
+  },
+  {
+    "id": 73,
+    "nom": "Figue",
+    "categorie": "Fruit",
+    "statut": "Recommandé",
+    "details": "Facilement décomposée.",
+    "decomposition": "Rapide",
+    "saisons": ["Toute l'année"]
+  },
+  {
+    "id": 74,
+    "nom": "Fruit du dragon",
+    "categorie": "Fruit",
+    "statut": "Recommandé",
+    "details": "Les restes mous sont excellents.",
+    "decomposition": "Rapide",
+    "saisons": ["Toute l'année"]
+  },
+  {
+    "id": 75,
+    "nom": "Litchi",
+    "categorie": "Fruit",
+    "statut": "Acceptable",
+    "details": "La peau est plus lente à décomposer.",
+    "decomposition": "Moyenne",
+    "saisons": ["Toute l'année"]
+  },
+  {
+    "id": 76,
+    "nom": "Kaki",
+    "categorie": "Fruit",
+    "statut": "Recommandé",
+    "details": "Très apprécié lorsqu'il est mou.",
+    "decomposition": "Rapide",
+    "saisons": ["Automne"]
+  },
+  {
+    "id": 77,
+    "nom": "Goyave",
+    "categorie": "Fruit",
+    "statut": "Recommandé",
+    "details": "Bonne matière verte.",
+    "decomposition": "Rapide",
+    "saisons": ["Toute l'année"]
+  },
+  {
+    "id": 78,
+    "nom": "Noix de coco",
+    "categorie": "Fruit",
+    "statut": "Acceptable",
+    "details": "Très fibreuse.",
+    "decomposition": "Lente",
+    "saisons": ["Toute l'année"]
+  },
+  {
+    "id": 79,
+    "nom": "Mandarine",
+    "categorie": "Fruit",
+    "statut": "Modération",
+    "details": "Agrume à utiliser avec parcimonie.",
+    "decomposition": "Moyenne",
+    "saisons": ["Hiver"]
+  },
+  {
+    "id": 80,
+    "nom": "Clémentine",
+    "categorie": "Fruit",
+    "statut": "Modération",
+    "details": "Agrume acide.",
+    "decomposition": "Moyenne",
+    "saisons": ["Hiver"]
+  },
+  {
+    "id": 81,
+    "nom": "Navet jaune",
+    "categorie": "Légume",
+    "statut": "Recommandé",
+    "details": "Très bon aliment pour le bac.",
+    "decomposition": "Moyenne",
+    "saisons": ["Automne"]
+  },
+  {
+    "id": 82,
+    "nom": "Topinambour",
+    "categorie": "Légume",
+    "statut": "Recommandé",
+    "details": "Bonne matière organique.",
+    "decomposition": "Moyenne",
+    "saisons": ["Automne"]
+  },
+  {
+    "id": 83,
+    "nom": "Cresson",
+    "categorie": "Légume",
+    "statut": "Recommandé",
+    "details": "Se décompose rapidement.",
+    "decomposition": "Rapide",
+    "saisons": ["Printemps"]
+  },
+  {
+    "id": 84,
+    "nom": "Roquette",
+    "categorie": "Légume",
+    "statut": "Recommandé",
+    "details": "Bonne matière verte.",
+    "decomposition": "Rapide",
+    "saisons": ["Été"]
+  },
+  {
+    "id": 85,
+    "nom": "Endive",
+    "categorie": "Légume",
+    "statut": "Acceptable",
+    "details": "Acceptée sans problème majeur.",
+    "decomposition": "Moyenne",
+    "saisons": ["Hiver"]
+  },
+  {
+    "id": 86,
+    "nom": "Radicchio",
+    "categorie": "Légume",
+    "statut": "Acceptable",
+    "details": "Légèrement amer.",
+    "decomposition": "Moyenne",
+    "saisons": ["Automne"]
+  },
+  {
+    "id": 87,
+    "nom": "Chou chinois",
+    "categorie": "Légume",
+    "statut": "Acceptable",
+    "details": "Peut produire une légère odeur.",
+    "decomposition": "Moyenne",
+    "saisons": ["Automne"]
+  },
+  {
+    "id": 88,
+    "nom": "Échalote",
+    "categorie": "Légume",
+    "statut": "Modération",
+    "details": "Même famille que l'oignon.",
+    "decomposition": "Lente",
+    "saisons": ["Toute l'année"]
+  },
+  {
+    "id": 89,
+    "nom": "Oignon vert",
+    "categorie": "Légume",
+    "statut": "Modération",
+    "details": "À utiliser en petite quantité.",
+    "decomposition": "Moyenne",
+    "saisons": ["Toute l'année"]
+  },
+  {
+    "id": 90,
+    "nom": "Poireau",
+    "categorie": "Légume",
+    "statut": "Modération",
+    "details": "Peut repousser les vers temporairement.",
+    "decomposition": "Lente",
+    "saisons": ["Automne"]
+  },
+  {
+    "id": 91,
+    "nom": "Gingembre",
+    "categorie": "Légume",
+    "statut": "Modération",
+    "details": "Arôme puissant.",
+    "decomposition": "Lente",
+    "saisons": ["Toute l'année"]
+  },
+  {
+    "id": 92,
+    "nom": "Curcuma",
+    "categorie": "Légume",
+    "statut": "Modération",
+    "details": "À ajouter en faible quantité.",
+    "decomposition": "Lente",
+    "saisons": ["Toute l'année"]
+  },
+  {
+    "id": 93,
+    "nom": "Piment jalapeño",
+    "categorie": "Légume",
+    "statut": "À éviter",
+    "details": "Contient de la capsaïcine.",
+    "decomposition": "Lente",
+    "saisons": ["Été"]
+  },
+  {
+    "id": 94,
+    "nom": "Piment habanero",
+    "categorie": "Légume",
+    "statut": "À éviter",
+    "details": "Très piquant.",
+    "decomposition": "Lente",
+    "saisons": ["Été"]
+  },
+  {
+    "id": 95,
+    "nom": "Piment thaï",
+    "categorie": "Légume",
+    "statut": "À éviter",
+    "details": "À proscrire.",
+    "decomposition": "Lente",
+    "saisons": ["Été"]
+  },
+  {
+    "id": 96,
+    "nom": "Rhubarbe",
+    "categorie": "Fruit",
+    "statut": "Acceptable",
+    "details": "Les tiges sont compostables.",
+    "decomposition": "Moyenne",
+    "saisons": ["Printemps"]
+  },
+  {
+    "id": 97,
+    "nom": "Camerise",
+    "categorie": "Fruit",
+    "statut": "Recommandé",
+    "details": "Petit fruit populaire au Québec.",
+    "decomposition": "Rapide",
+    "saisons": ["Été"]
+  },
+  {
+    "id": 98,
+    "nom": "Argouse",
+    "categorie": "Fruit",
+    "statut": "Acceptable",
+    "details": "Légèrement acide.",
+    "decomposition": "Moyenne",
+    "saisons": ["Automne"]
+  },
+  {
+    "id": 99,
+    "nom": "Physalis",
+    "categorie": "Fruit",
+    "statut": "Recommandé",
+    "details": "Très bon aliment lorsqu'il est mûr.",
+    "decomposition": "Rapide",
+    "saisons": ["Automne"]
+  },
+  {
+    "id": 100,
+    "nom": "Coing",
+    "categorie": "Fruit",
+    "statut": "Acceptable",
+    "details": "Plus ferme que la plupart des fruits.",
+    "decomposition": "Moyenne",
+    "saisons": ["Automne"]
+  }
+]
