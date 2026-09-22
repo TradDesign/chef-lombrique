@@ -84,6 +84,44 @@ td{
     font-weight: bold;
 }
 
+#legende{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+    margin-bottom:20px;
+}
+
+.item-legende{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    font-weight:bold;
+}
+
+.couleur{
+    width:20px;
+    height:20px;
+    display:inline-block;
+    border:1px solid #999;
+}
+
+.couleur.recommande{
+    background:#d4edda;
+}
+
+.couleur.acceptable{
+    background:#e8f5e9;
+}
+
+.couleur.moderation{
+    background:#fff3cd;
+}
+
+.couleur.eviter{
+    background:#f8d7da;
+}
+
 </style>
 
 </head>
@@ -99,6 +137,30 @@ placeholder="Rechercher un aliment..."
 >
 
 <p id="compteur"></p>
+
+<div id="legende">
+
+    <div class="item-legende">
+        <span class="couleur recommande"></span>
+        Recommandé
+    </div>
+
+    <div class="item-legende">
+        <span class="couleur acceptable"></span>
+        Acceptable
+    </div>
+
+    <div class="item-legende">
+        <span class="couleur moderation"></span>
+        Modération
+    </div>
+
+    <div class="item-legende">
+        <span class="couleur eviter"></span>
+        À éviter
+    </div>
+
+</div>
 
 <table>
 
