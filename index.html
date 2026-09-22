@@ -5,76 +5,92 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Fruits et légumes pour le vermicompostage</title>
+<title>Chef Lombrique 🪱</title>
 
 <style>
 
 body{
     font-family: Arial, sans-serif;
-    margin:0;
-    padding:20px;
-    background:#f5f5f5;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
 }
 
 h1{
-    text-align:center;
-    font-size:3rem;
-    margin-bottom:30px;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 30px;
 }
 
 #recherche{
-    width:100%;
-    max-width:500px;
-    padding:12px;
-    font-size:1.2rem;
-    margin-bottom:20px;
-}
-
-table{
-    width:100%;
-    border-collapse:collapse;
-    background:white;
-}
-
-th{
-    background:#eeeeee;
-    padding:14px;
-    border:1px solid #cccccc;
-    font-size:1.4rem;
-}
-
-td{
-    padding:12px;
-    border:1px solid #cccccc;
-}
-
-.recommande{
-    background:#d4edda;
-}
-
-.acceptable{
-    background:#dff0d8;
-}
-
-.moderation{
-    background:#fff3cd;
-}
-
-.eviter{
-    background:#f8d7da;
+    width: 100%;
+    max-width: 600px;
+    padding: 12px;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
 }
 
 #compteur{
-    margin-bottom:15px;
-    font-weight:bold;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th{
+    background: #efefef;
+    padding: 15px;
+    border: 1px solid #d0d0d0;
+    font-size: 1.2rem;
+}
+
+td{
+    padding: 12px;
+    border: 1px solid #d0d0d0;
+}
+
+.recommande{
+    background-color: #d4edda;
+}
+
+.acceptable{
+    background-color: #e8f5e9;
+}
+
+.moderation{
+    background-color: #fff3cd;
+}
+
+.eviter{
+    background-color: #f8d7da;
+}
+
+.carbone{
+    color: saddlebrown;
+    font-weight: bold;
+}
+
+.azote{
+    color: green;
+    font-weight: bold;
+}
+
+.mixte{
+    color: royalblue;
+    font-weight: bold;
 }
 
 </style>
+
 </head>
 
 <body>
 
-<h1>🌱 Fruits et légumes pour le vermicompostage</h1>
+<h1>🪱 Chef Lombrique</h1>
 
 <input
 type="text"
@@ -88,11 +104,9 @@ placeholder="Rechercher un aliment..."
 
 <thead>
 <tr>
-<th>Nom</th>
-<th>Catégorie</th>
-<th>Compatible</th>
-<th>Décomposition</th>
-<th>Remarque</th>
+    <th>Aliment</th>
+    <th>Apport</th>
+    <th>Pourquoi</th>
 </tr>
 </thead>
 
@@ -107,10 +121,8 @@ let aliments = [];
 fetch("aliments.json")
 .then(response => response.json())
 .then(data => {
-
     aliments = data;
     afficher();
-
 });
 
 document
@@ -125,46 +137,64 @@ function afficher(){
         .value
         .toLowerCase();
 
+    const resultats = aliments.filter(aliment =>
+        aliment.nom.toLowerCase().includes(filtre)
+    );
+
+    document.getElementById("compteur").innerText =
+        `${resultats.length} aliment(s) trouvé(s)`;
+
     const tableau =
         document.getElementById("tableau");
 
     tableau.innerHTML = "";
 
-    const resultats =
-        aliments.filter(aliment =>
-            aliment.nom
-            .toLowerCase()
-            .includes(filtre)
-        );
-
-    document.getElementById("compteur")
-    .innerText =
-        resultats.length + " aliment(s) trouvé(s)";
-
     resultats.forEach(aliment => {
 
-        let classe = "";
+        let statutClasse = "";
 
-        if(aliment.statut === "Recommandé")
-            classe = "recommande";
+        switch(aliment.statut){
+            case "Recommandé":
+                statutClasse = "recommande";
+                break;
 
-        if(aliment.statut === "Acceptable")
-            classe = "acceptable";
+            case "Acceptable":
+                statutClasse = "acceptable";
+                break;
 
-        if(aliment.statut === "Modération")
-            classe = "moderation";
+            case "Modération":
+                statutClasse = "moderation";
+                break;
 
-        if(aliment.statut === "À éviter")
-            classe = "eviter";
+            case "À éviter":
+                statutClasse = "eviter";
+                break;
+        }
+
+        let apportClasse = "";
+
+        switch(aliment.apport){
+            case "Carbone":
+                apportClasse = "carbone";
+                break;
+
+            case "Azote":
+                apportClasse = "azote";
+                break;
+
+            case "Mixte":
+                apportClasse = "mixte";
+                break;
+        }
 
         tableau.innerHTML += `
-        <tr class="${classe}">
-            <td>${aliment.nom}</td>
-            <td>${aliment.categorie}</td>
-            <td>${aliment.statut}</td>
-            <td>${aliment.decomposition}</td>
-            <td>${aliment.details}</td>
-        </tr>
+            <tr class="${statutClasse}">
+                <td>${aliment.nom}</td>
+                <td class="${apportClasse}">
+                    ${aliment.apport}
+                </td>
+                <td>${aliment.details}</td>
+            </tr>
         `;
     });
 }
@@ -172,5 +202,4 @@ function afficher(){
 </script>
 
 </body>
-
 </html>
