@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Fruits et légumes pour le vermicompostage</title>
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:20px;
+    background:#f5f5f5;
+}
+
+h1{
+    text-align:center;
+    font-size:3rem;
+    margin-bottom:30px;
+}
+
+#recherche{
+    width:100%;
+    max-width:500px;
+    padding:12px;
+    font-size:1.2rem;
+    margin-bottom:20px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+}
+
+th{
+    background:#eeeeee;
+    padding:14px;
+    border:1px solid #cccccc;
+    font-size:1.4rem;
+}
+
+td{
+    padding:12px;
+    border:1px solid #cccccc;
+}
+
+.recommande{
+    background:#d4edda;
+}
+
+.acceptable{
+    background:#dff0d8;
+}
+
+.moderation{
+    background:#fff3cd;
+}
+
+.eviter{
+    background:#f8d7da;
+}
+
+#compteur{
+    margin-bottom:15px;
+    font-weight:bold;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>🌱 Fruits et légumes pour le vermicompostage</h1>
+
+<input
+type="text"
+id="recherche"
+placeholder="Rechercher un aliment..."
+>
+
+<p id="compteur"></p>
+
+<table>
+
+<thead>
+<tr>
+<th>Nom</th>
+<th>Catégorie</th>
+<th>Compatible</th>
+<th>Décomposition</th>
+<th>Remarque</th>
+</tr>
+</thead>
+
+<tbody id="tableau"></tbody>
+
+</table>
+
+<script>
+
+let aliments = [];
+
+fetch("aliments.json")
+.then(response => response.json())
+.then(data => {
+
+    aliments = data;
+    afficher();
+
+});
+
+document
+.getElementById("recherche")
+.addEventListener("input", afficher);
+
+function afficher(){
+
+    const filtre =
+        document
+        .getElementById("recherche")
+        .value
+        .toLowerCase();
+
+    const tableau =
+        document.getElementById("tableau");
+
+    tableau.innerHTML = "";
+
+    const resultats =
+        aliments.filter(aliment =>
+            aliment.nom
+            .toLowerCase()
+            .includes(filtre)
+        );
+
+    document.getElementById("compteur")
+    .innerText =
+        resultats.length + " aliment(s) trouvé(s)";
+
+    resultats.forEach(aliment => {
+
+        let classe = "";
+
+        if(aliment.statut === "Recommandé")
+            classe = "recommande";
+
+        if(aliment.statut === "Acceptable")
+            classe = "acceptable";
+
+        if(aliment.statut === "Modération")
+            classe = "moderation";
+
+        if(aliment.statut === "À éviter")
+            classe = "eviter";
+
+        tableau.innerHTML += `
+        <tr class="${classe}">
+            <td>${aliment.nom}</td>
+            <td>${aliment.categorie}</td>
+            <td>${aliment.statut}</td>
+            <td>${aliment.decomposition}</td>
+            <td>${aliment.details}</td>
+        </tr>
+        `;
+    });
+}
+
+</script>
+
+</body>
+
+</html>
