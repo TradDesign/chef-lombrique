@@ -4,7 +4,7 @@
     "nom": "Pomme",
     "apport": "Azote",
     "statut": "Recommandé",
-    "details": "Très appréciée des vers."
+    "details": "La peau, le trognon et même les graines sont très appréciée des vers."
   },
   {
     "id": 2,
@@ -18,7 +18,7 @@
     "nom": "Banane",
     "apport": "Azote",
     "statut": "Recommandé",
-    "details": "Les pelures sont excellentes pour les vers."
+    "details": "Coupez les pelures de bananes en petit morceaux perpendiculaire à la fibre."
   },
   {
     "id": 4,
@@ -137,7 +137,7 @@
     "nom": "Avocat",
     "apport": "Azote",
     "statut": "Recommandé",
-    "details": "Très apprécié lorsqu'il est mûr."
+    "details": "La chair est très appréciée lorsqu'il est mûr. La peau se décompose très lentement. Le noyau doit être broyé. Attention à ne pas se couper."
   },
   {
     "id": 21,
